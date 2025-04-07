@@ -1,5 +1,3 @@
-# python-nlp-llm-examples
-
 # Python NLP & LLM Examples
 
 A collection of Jupyter Notebooks (Google Colab) that demonstrate common machine learning techniques in Python.
