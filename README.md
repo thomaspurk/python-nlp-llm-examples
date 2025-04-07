@@ -1,38 +1,53 @@
 # python-nlp-llm-examples
 
-## Delete Notes
+# Python NLP & LLM Examples
 
-**Hugging Face NLP Tasks**
+A collection of Jupyter Notebooks (Google Colab) that demonstrate common machine learning techniques in Python.
 
-https,//huggingface.co/docs/transformers/en/main_classes/pipelines
+## SciKit Learn - Pipeline For NLP
 
-'audio-classification', will return a AudioClassificationPipeline.
-'automatic-speech-recognition', will return a AutomaticSpeechRecognitionPipeline.
-'depth-estimation', will return a DepthEstimationPipeline.
-'document-question-answering', will return a DocumentQuestionAnsweringPipeline.
-'feature-extraction', will return a FeatureExtractionPipeline.
-'fill-mask', will return a FillMaskPipeline,.
-'image-classification', will return a ImageClassificationPipeline.
-'image-feature-extraction', will return an ImageFeatureExtractionPipeline.
-'image-segmentation', will return a ImageSegmentationPipeline.
-'image-text-to-text', will return a ImageTextToTextPipeline.
-'image-to-image', will return a ImageToImagePipeline.
-'image-to-text', will return a ImageToTextPipeline.
-'mask-generation', will return a MaskGenerationPipeline.
-'object-detection', will return a ObjectDetectionPipeline.
-'question-answering', will return a QuestionAnsweringPipeline.
-'summarization', will return a SummarizationPipeline.
-'table-question-answering', will return a TableQuestionAnsweringPipeline.
-'text2text-generation', will return a Text2TextGenerationPipeline.
-'text-classification' (alias 'sentiment-analysis' available), will return a TextClassificationPipeline.
-'text-generation', will return a TextGenerationPipeline,.
-'text-to-audio' (alias 'text-to-speech' available), will return a TextToAudioPipeline,.
-'token-classification' (alias 'ner' available), will return a TokenClassificationPipeline.
-'translation', will return a TranslationPipeline.
-'translation_xx_to_yy', will return a TranslationPipeline.
-'video-classification', will return a VideoClassificationPipeline.
-'visual-question-answering', will return a VisualQuestionAnsweringPipeline.
-'zero-shot-classification', will return a ZeroShotClassificationPipeline.
-'zero-shot-image-classification', will return a ZeroShotImageClassificationPipeline.
-'zero-shot-audio-classification', will return a ZeroShotAudioClassificationPipeline.
-'zero-shot-object-detection', will return a ZeroShotObjectDetectionPipeline.
+[Notebook](SciKit_Learn_Pipeline_For_NLP.ipynb)
+
+**Results Summary**
+
+![alt text](<images/yelp star rating pred cm.png>)
+
+## NLTK - Naive Bayes Classifier
+
+[Notebook](NLTK_Naive_Bayes_Classifier.ipynb)
+
+**Results Summary**
+
+![alt text](<images/nltk naive bayes classifier.png>)
+
+## Hugging Face - Pre-Built Task Pipelines
+
+[Notebook](Hugging_Face_Pre_Built_Task_Pipelines.ipynb)
+
+**Results Summary**
+
+![alt text](<images/hugging face default pipelines.png>)
+
+## Hugging Face - Pre-Trained Tokenizer Comparison
+
+[Notebook](Hugging_Face_Pre_Trained_Tokenizer_Comparison.ipynb)
+
+**Results Summary**
+
+![alt text](<images/hf pretrained tokenizer comparison.png>)
+
+## Hugging Face - Fine-Tuning Model with GLUE SST2
+
+[Notebook](Hugging_Face_Fine_Tuning_Model_with_GLUE_SST2.ipynb)
+
+**Results Summary**
+
+![alt text](<images/hf fine-tuning.png>)
+
+## Hugging Face - Semantic Search via Sentence Similarity
+
+[Notebook](Hugging_Face_Semantic_Search_via_Sentence_Similarity.ipynb)
+
+**Results Summary**
+
+![alt text](<images/semantic similarirty.png>)
